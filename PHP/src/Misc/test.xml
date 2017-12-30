@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contest contestCode="test">
+  <contestName>test</contestName>
+  <noOfPrograms>1</noOfPrograms>
+  <contestDuration>30</contestDuration>
+  <startTime>2017-03-12T00:00</startTime>
+  <endTime>2017-03-19T00:00</endTime>
+  <contestDescription>Test</contestDescription>
+  <contestRules>Test</contestRules>
+<formatOutput>1</formatOutput><problem problemCode="test1"><problemName>test1</problemName><problemDescription>Addition;..;sp;..;of;..;sp;..;two</problemDescription><inputFormat>3;..;sp;..;4</inputFormat><outputFormat>7</outputFormat><constraints>none</constraints><sampleInput>3;..;sp;..;4</sampleInput><sampleOutput>7</sampleOutput><TestCase><InputFile>temp\testtest1InputFile1.txt</InputFile><OutputFile>temp\testtest1OutputFile1.txt</OutputFile><TestCasePoints>10</TestCasePoints></TestCase><TestCase><InputFile>temp\testtest1InputFile2.txt</InputFile><OutputFile>temp\testtest1OutputFile2.txt</OutputFile><TestCasePoints>10</TestCasePoints></TestCase><TestCase><InputFile>temp\testtest1InputFile3.txt</InputFile><OutputFile>temp\testtest1OutputFile3.txt</OutputFile><TestCasePoints/></TestCase></problem></contest>

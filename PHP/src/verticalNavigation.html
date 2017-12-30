@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style type="text/css">
+
+ul {
+ margin: 0;
+ padding:3px;
+ list-style: none;
+ width: 200px;
+ position: absolute;
+ height: 100%;
+ background-color: #454545;
+ z-index: 1;
+ }
+ul li {
+ position: relative;
+ padding: 10px;
+ top:0px;
+ 
+ }
+ li ul {
+ position: absolute;
+ top:0px;
+ left: 200px;
+ display: none;
+ }
+ ul li ul li ul {
+ 	display: none;
+ 	background-color: #454545;
+ 	
+ }
+ ul li a {
+ display: block;
+ text-decoration: none;
+ color: white;
+ background: transparent;
+ padding: 5px;
+ text-align: center;
+ 
+  }
+  li a:hover {
+  background: green;
+  }
+ #firstNav li:hover #secondNav, li.over #secondNav  { 
+ display: block; }
+
+ #secondNav li:hover ul, li.over ul  { 
+ display: block; position: absolute; }
+
+ ul li ul li{
+ 	background-color: #454545;
+
+ }
+
+ ul li:hover  {
+ 	background-color: #696969;
+ 	
+ }
+ ul li a:hover
+ {
+ 	color: white;
+ }
+
+
+</style>
+<script type="text/javascript">
+	startList = function() {
+if (document.all&&document;.getElementById) {
+navRoot = document.getElementById("nav");
+for (i=0; i;
+if (node.nodeName=="LI") {
+node.onmouseover=function() {
+this.className+=" over";
+  }
+  node.onmouseout=function() {
+  this.className=this.className.replace»
+ (" over", "");
+   }
+   }
+  }
+ }
+}
+window.onload=startList;
+</script>
+<div id="verticalNav">
+<ul id='firstNav'> 
+  <li><a href="/practise.php">Contests</a></li>
+  <li><a href="/newcontest.php" id='createcontest'>Create contest</a></li>
+  <li><a href="/UserFolders">UserFiles</a></li>
+  <li><a href="/practice.php">Practice</a></li>
+  <li><a href="/scores.php" id='createcontest'>Scores</a></li> 
+  <li><a href="#">Settings</a> 
+      <ul id='secondNav'> 
+      <li><a href="#" id='managemembers'>Manage members</a>
+			  <ul>
+				  <li><a href="/addmembers.php">Add Member</a></li>
+				  <li><a href="/deletemember.php">Remove Member</a></li>
+			</ul>
+	 </li> 
+      <li><a href="/deletecontest.php" id='deletecontest'>Delete Contest</a></li> 
+      <li><a href="/changepassword.php">Change Password</a></li> 
+      </ul> 
+   </li> 
+    <li><a href="/logout.php">Logout</a></li> 
+  
+  </ul>
+</div>
+
+
+
+
+</body>
+</html>

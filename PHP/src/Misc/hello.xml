@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contest contestCode="hello">
+  <contestName>hello</contestName>
+  <noOfPrograms>1</noOfPrograms>
+  <contestDuration>10</contestDuration>
+  <startTime>2017-04-25T08:00</startTime>
+  <endTime>2017-04-25T12:00</endTime>
+  <contestDescription>jbef</contestDescription>
+  <contestRules>khfg</contestRules>
+<formatOutput>1</formatOutput><problem problemCode="hello"><problemName>hello</problemName><problemDescription>print;..;sp;..;hello</problemDescription><inputFormat>hello</inputFormat><outputFormat>hello</outputFormat><constraints/><sampleInput>hello</sampleInput><sampleOutput>hello</sampleOutput><TestCase><InputFile>Misc\hellohelloInputFile1.txt</InputFile><OutputFile>Misc\hellohelloOutputFile1.txt</OutputFile><TestCasePoints>10</TestCasePoints></TestCase></problem></contest>

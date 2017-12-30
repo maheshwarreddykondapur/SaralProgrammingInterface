@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contest contestCode="tuesday">
+  <contestName>tuesday</contestName>
+  <noOfPrograms>1</noOfPrograms>
+  <contestDuration>15</contestDuration>
+  <startTime>2017-04-25T12:30</startTime>
+  <endTime>2017-04-25T16:00</endTime>
+  <contestDescription>tueday;..;sp;..;contest</contestDescription>
+  <contestRules>Test;..;sp;..;Rules</contestRules>
+<formatOutput>1</formatOutput><problem problemCode="sum of two integers"><problemName>sum</problemName><problemDescription>add two integers</problemDescription><inputFormat>2 3</inputFormat><outputFormat>5</outputFormat><constraints>enter only integers</constraints><sampleInput>2 3</sampleInput><sampleOutput>5</sampleOutput><TestCase><InputFile>Misc\tuesdaysum of two integersInputFile1.txt</InputFile><OutputFile>Misc\tuesdaysum of two integersOutputFile1.txt</OutputFile><TestCasePoints>10</TestCasePoints></TestCase></problem></contest>

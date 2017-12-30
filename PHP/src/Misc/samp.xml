@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contest contestCode="samp">
+  <contestName>sample</contestName>
+  <noOfPrograms>1</noOfPrograms>
+  <contestDuration>30</contestDuration>
+  <startTime>2017-04-22T23:59</startTime>
+  <endTime>2017-04-29T23:59</endTime>
+  <contestDescription>Sample</contestDescription>
+  <contestRules>Sample</contestRules>
+<formatOutput>1</formatOutput><problem problemCode="ss"><problemName>ssssvfd</problemName><problemDescription>sssssvfd</problemDescription><inputFormat>ssssssfdv</inputFormat><outputFormat>ssssssssss;..;nl;..;rffv;..;nl;..;vff</outputFormat><constraints>sssssssssssssssvfd;..;nl;..;v;..;sp;..;;..;sp;..;;..;sp;..;;..;sp;..;;..;sp;..;ssssssss</constraints><sampleInput>eeeee</sampleInput><sampleOutput>eeeee</sampleOutput></problem></contest>

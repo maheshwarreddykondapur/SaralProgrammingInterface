@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contest contestCode="nik">
+  <contestName>nik</contestName>
+  <noOfPrograms>1</noOfPrograms>
+  <contestDuration>11</contestDuration>
+  <startTime>2017-04-25T08:30</startTime>
+  <endTime>2017-04-25T16:00</endTime>
+  <contestDescription>kefhk</contestDescription>
+  <contestRules>kjshfkjsh</contestRules>
+<formatOutput>1</formatOutput><problem problemCode="hello"><problemName>hello</problemName><problemDescription>print;..;sp;..;hello</problemDescription><inputFormat>hello</inputFormat><outputFormat>hello</outputFormat><constraints>no;..;sp;..;constraints</constraints><sampleInput>hello</sampleInput><sampleOutput>hello</sampleOutput><TestCase><InputFile>Misc\nikhelloInputFile1.txt</InputFile><OutputFile>Misc\nikhelloOutputFile1.txt</OutputFile><TestCasePoints>10</TestCasePoints></TestCase></problem></contest>
