@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport">
+    <style>
+    .modal{
+        background: rgba(0,0,0,0.4);
+    }
+    </style>
+</head>
+<body id ="login-body">
+    <div id="container" align="center" >
+        <div class="header">
+            
+            <h1><b>SARAL PROGRAMMING</b></h1>
+            <img id = "logo-img" height="250" width=250 style="align:center" />
+            <div class="title"><h2 id = "index-organization"></h2></div>
+            <button  onclick = "document.getElementById('login-modal').style.display='block'" class='login btn btn-primary'>Login</button>
+            <button onclick="document.getElementById('registration-modal').style.display='block'" class='reg btn btn-primary'>Register</button><br><br>
+        </div>  
+    </div>
+
+    <div class="modal" id = "login-modal" role="dialog" align="center">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img class="mobile-image" id = "login-modal-img" style="width:10%;height:10%;">
+                    <label><h3 id = "login-org"></h3></label>
+                    <button type="button" class="close" onclick="document.getElementById('login-modal').style.display='None'" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label> Username </label>
+                    <input type="email" placeholder="Enter Username" name="userName" id = "login-username-input" class= "input-sm" required><br><br>
+                    <label>Password </label>
+                    <input type="password" placeholder="Enter Password"  name="password" id = "login-password-input" class= "input-sm"  required ><br><br>
+                    <span class="password-recovery"><a href="passwordrecovery.php">Forgot password?</a></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id = "login-cancel-btn"  onclick="document.getElementById('login-modal').style.display='none'" class="btn btn-danger pull-left"> Cancel</button>
+                    <button type="button" id = "login-submit-btn" class="btn btn-success" name="login-Button"> &nbsp;Login&nbsp; </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id = "registration-modal" role="dialog" align="center">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img class="mobile-image" id = "registration-modal-img" style="width:10%;height:10%;">
+                    <label><h3 id="registration-org"></h3></label>
+                    <button type="button" class="close" onclick="document.getElementById('registration-modal').style.display='None'" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table borderless">
+                        <tr>
+                            <td>
+                                <label><b> Name</b></label>
+                            </td>
+                            <td>
+                                <input type="name" placeholder="Enter name" name="name" class= "input-sm" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><b> ID</b></label>
+
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Enter Roll.no" name="rno"  class= "input-sm" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><b> Organization</b></label>
+                                    
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Enter College name" name="college" class= "input-sm" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><b>Username</b></label>    
+                                        
+                            </td>
+                            <td>
+                                <input type="email" placeholder="Enter mail-id" name="username" class= "input-sm" required>
+                                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><b>Password</b></label>            
+                            </td>
+                            <td>
+                                <input type="password"  pattern=".{6,}" placeholder="Enter Password" name="password" id='pwd1' class= "input-sm"
+                                            onchange="  this.setCustomValidity(this.validity.patternMismatch ? this.title : '');
+                                                    if(this.checkValidity()) form.pwd2.pattern = this.value;" required>
+                                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><b>Confirm</b></label>
+                                                
+                            </td>
+                            <td>
+                                <input type="password"  pattern=".{6,}" placeholder="Confirm Password" name="pwd2" id='pwd2' class= "input-sm"
+                                                onchange="this.setCustomValidity(this.validity.patternMismatch ? this.title : '');" required>
+                            </td>
+                        </tr>
+                                    
+                    </table>
+                        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id = "login-cancel-btn"  onclick="document.getElementById('registration-modal').style.display='none'" class="btn btn-danger pull-left"> Cancel</button>
+                    <button type="button" id = "login-submit-btn" class="btn btn-success" name="login-Button"> &nbsp;Register&nbsp; </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    
+
+    <script src="../javascript/config.js"></script>
+    <script src="../javascript/mainscript.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
