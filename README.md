@@ -1,2 +1,0 @@
-# SaralProgrammingInterface
-An online compiler
